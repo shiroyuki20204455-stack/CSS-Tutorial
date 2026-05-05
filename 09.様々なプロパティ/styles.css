@@ -11,6 +11,8 @@ header {
 
 main {
   text-align: center;
+  flex-grow: 1;
+  overflow: auto;
 }
 
 .container {
@@ -49,4 +51,14 @@ header {
   position: sticky;
   top: 0;
   opacity: 0.9;
+}
+
+html,body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
 }
